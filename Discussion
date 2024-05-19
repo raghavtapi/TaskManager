@@ -1,0 +1,87 @@
+
+
+
+
+Object
+
+
+Task
+    id
+    title
+    description
+    due_date
+    priority_level
+
+
+User
+    id
+    List<Task>
+    map<taskid, task> 
+
+
+Functions
+
+createTask()
+
+get days until due date(task)
+    // return days remaining 
+
+get task due date()
+    // return all tasks based on due date
+
+get task priority_level()
+    // return all task based on priority_level
+
+get task by both()
+    //
+
+
+
+
+
+
+My Final Take on Interview:
+
+
+I didn't how to use Date (LocalDate) in Java.(Aksed so many functions to interviewer)
+I didn't know how sort comparator works when we have to apply two condition at once.
+I didn't how to use hashmap iterator.
+Rest question was not tough.
+
+
+
+
+
+
+
+
+
+saketvajpai26@gmail.com
+
+https://www.hackerrank.com/codepair/pmjjkpmxfzglkcouwvvuohoziopeaura/questions/1?b=eyJpbnRlcnZpZXdfaWQiOjQ5OTQwMDMsInJvbGUiOiJpbnRlcnZpZXdlciIsInNob3J0X3VybCI6Imh0dHBzOi8vaHIuZ3MvOTM5OTJmOSIsImNhbmRpZGF0ZV91cmwiOiJodHRwczovL2hyLmdzLzcyNTg3N2MifQ
+
+
+
+----------------------------------------------------------------------------------------------------
+
+Problem Statement : 
+Design a To-Do-List application with following features : 
+1. Create a Task:
+This feature allows users to create a new task. A task typically consists of a title, description, due date, and priority level.
+
+2. Get Days Until Due Date:
+Calculate and return the number of days until the due date of a task. This will involve calculating the difference between the current date and the due date of the task.
+
+3. Get Tasks of a User Based on Due Date:
+Implement a function that retrieves and sorts tasks for a user based on their due date. This will allow users to see their tasks in order of when they are due.
+
+4. Get Tasks of a User Based on Priority:
+Implement a function that retrieves tasks for a user based on their priority level. Users should be able to view tasks in order of priority.
+
+5. Get Tasks of a User Based on Priority Sorted by Due Date (Bonus):
+This bonus feature involves combining the functionalities of sorting tasks by both priority and due date. The tasks with the highest priority should be shown first, and within each priority level, tasks should be sorted by their due date.
+
+6. Update Priority of a Task and Display Updated Task List (Bonus):
+Allow users to update the priority of a task. After updating, display the updated task list according to the priority order. This feature can be useful when users need to reorganize their tasks.
+
+Date Format : YYYY-MM-DD ,Example : 2016-07-28
